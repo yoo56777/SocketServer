@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <RX08 type ="208">
+    <msgTypeExt>2</msgTypeExt>
+    <part_id>202</part_id>
+    <statusCode>0</statusCode>
+    <order_no>ZT000</order_no>
+    <ord_id>1</ord_id>
+    <fcm_id>606</fcm_id>    
+    <pseq>3388997633</pseq><!--MXFFX-->
+    <prod_id>MXFFX230925</prod_id> 
+  </RX08>
+  <R14 type ="114">
+    <statusCode>0</statusCode>
+    <fcm_req_id>0</fcm_req_id>
+    <bulletin_seq>0</bulletin_seq>
+    <system_type>20</system_type>
+    <data>B01F9050000000000001</data>    
+  </R14>
+  <RX14 type ="214">
+    <msgTypeExt>0</msgTypeExt>
+    <statusCode>0</statusCode>
+    <fcm_req_id>0</fcm_req_id>
+    <bulletin_seq>0</bulletin_seq>
+    <system_type>20</system_type>
+    <data>
+      <file_code>XP08</file_code>
+      <is_pub>1</is_pub>
+      <file_path>XP08.20</file_path>
+      <else_data>ZZZ</else_data>
+    </data>
+  </RX14>
+  <RX20 type ="220">
+    <msgTypeExt>0</msgTypeExt>
+    <securityRequestType>1</securityRequestType>
+    <securityReqId>6347</securityReqId><!--from RX19-->
+    <statusCode>0</statusCode>
+  </RX20>
+</root>
